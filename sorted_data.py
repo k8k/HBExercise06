@@ -14,7 +14,8 @@ for line in openfile:
 # for restaurant_name in sorted(rest_dict):
 #     print 'Restaurant "%s" is rated at %s' % (restaurant_name, rest_dict[restaurant_name])
 
-for i in sorted(rest_dict.keys()):
-    print 'Restaurant "%s" is rated %s' % (i, rest_dict[i])
+#for i in sorted(rest_dict.keys()):
+ #   print 'Restaurant "%s" is rated %s' % (i, rest_dict[i])
 
+print rest_dict.values()
 openfile.close()
